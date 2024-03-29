@@ -87,7 +87,10 @@ https://velog.io/@ghdlrn/%ED%85%8C%ED%8A%B8%EB%A6%AC%EC%8A%A4%EA%B2%8C%EC%9E%84-
 <br>
 <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white" />
 <img src="https://img.shields.io/badge/Bootstrap-80247B?style=flat-square&logo=Bootstrap&logoColor=white" />
-<img src="https://img.shields.io/badge/dynamic/json" />
+<img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
+<br>
+<img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
+<img src="https://img.shields.io/badge/oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white">
 
 ## 📹 시연 영상 📹
 
