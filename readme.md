@@ -3,11 +3,11 @@
 ## 📚 목차 📚
 
 1. [📂 PPT](#-PPT-)
-2. [📖 프로젝트 소개](#-테트리스게임 프로젝트-)
-3. [🔧 Development Environment](#development-environment)
-4. [💡 개발 목적](#기획-의도)
-5. [🙋‍♀️ Team_Member](#%EF%B8%8F-team_member-%EF%B8%8F)
-6. [📋 개발 일지](#개발-일지)
+2. [📖 프로젝트 소개](#-테트리스게임-프로젝트-)
+3. [🔧 개발 환경](#-개발-환경-)
+4. [💡 개발 목적](#-개발-목적-)
+5. [🙋‍♀️ Team_Member](#-Team_Member-)
+6. [📋 개발 일지](#-개발-일지-)
 7. [🔨 사용 기술](#-사용-기술-)
 8. [📹 시연 영상](#-시연-영상-) 
 
@@ -37,7 +37,7 @@
 </details>
       
 ## 📖 테트리스게임 프로젝트 📖
-```bash프로젝트 소개
+```프로젝트 소개
 테트리스 게임을 웹에서 구현
 ```
 ## 🔧 개발 환경 🔧
@@ -57,7 +57,7 @@
 IDE : 인텔리J
 ```
 
-## 💡 개발목적 💡
+## 💡 개발 목적 💡
 ```
 쇼핑몰, Todo리스트는 온갖 입문서적에서 예제 프로젝트로 쓰이거나 다른 국비지원이나 부트캠프 팀에서도 단골로 쓰이는 프로젝트이기에 다른 방향성을 찾아보는걸로 이야기를 진행
 
@@ -72,7 +72,7 @@ IDE : 인텔리J
 ## 📋 개발 일지 📋
 <details><summary>개발 일지</summary>
    
-[![개발일지](https://github.com/Chunjae-GongCheck/GongCheck/assets/145525099/5ac7ac12-4e39-46c2-a1ce-548e7c9bb748)](https://velog.io/@ghdlrn/%ED%85%8C%ED%8A%B8%EB%A6%AC%EC%8A%A4%EA%B2%8C%EC%9E%84-%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-1%EC%9D%BC%EC%B0%A8)
+https://velog.io/@ghdlrn/%ED%85%8C%ED%8A%B8%EB%A6%AC%EC%8A%A4%EA%B2%8C%EC%9E%84-%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-1%EC%9D%BC%EC%B0%A8
 
 </details>
 
@@ -87,12 +87,11 @@ IDE : 인텔리J
 <br>
 <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white" />
 <img src="https://img.shields.io/badge/Bootstrap-80247B?style=flat-square&logo=Bootstrap&logoColor=white" />
-<img src="https://github.com/ghdlrn/projectT/assets/157094398/2103f4ef-dfe6-40c4-8454-95d8543fd676" />
 
 
 ## 📹 시연 영상 📹
 
-<details><summary>회원가입 및 로그인</summary>
+<details><summary>유튜브 링크</summary>
 
 https://youtu.be/cTt5ZwCrwgg
 
