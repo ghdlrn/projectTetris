@@ -1,0 +1,159 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    min-height: 100vh;
+    overflow: hidden;
+}
+.video-Box {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+video {
+    width: 100%;
+}
+
+.sidebar-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px; /* 사이드바의 너비를 명시 */
+    height: 100vh; /* 전체 높이 */
+    z-index: 1020; /* 다른 요소 위에 위치하도록 z-index 설정 */
+}
+.d-flex{
+    left: 0;
+    top: 0;
+}
+
+
+.my_bg {
+    width: 90%;
+    position: fixed;
+    top: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 850px;
+    width: 600px;
+
+}
+
+.game-container {
+    width: 600px;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+    align-content: center;
+}
+
+.Block-storage {
+    text-decoration-color: darkgray;
+    text-align: center;
+}
+.info-box {
+    margin: 20px 0 0 0;
+    width: 120px;
+    height: 600px;
+}
+/*박스 저장 공간*/
+.info {
+    border-radius: 10px;
+    border: solid dimgray;
+    width: 120px;
+    height: 90px;
+    background-color:transparent;
+    background-size: cover;
+    text-align: center;
+}
+.player-info {
+    color: white;
+    border-radius: 10px;
+    background-color: dimgray;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.button-Box {
+    width: 120px;
+    height: 200px;
+    margin: 20px 50px 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.board-outline{
+    display: flex;
+    justify-content: center;
+}
+
+#gameCanvas {
+    background-color:transparent;
+    border: 1px solid #000; /* 경계선 추가 */
+    display: block; /* 블록 레벨 요소로 표시 */
+    margin: 0 auto; /* 가운데 정렬 */
+}
+
+
+.block-storage, .next-block {
+    border: solid  dimgray;
+    background-color: #e5e7eb;
+    padding: 0.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    /*height: 60px; !* Same size as the next block *!*/
+}
+
+
+
+/*다음 블럭 제목*/
+.Next-block-text {
+    font-size: 14px;
+    color: #17191d;
+    /*text-align: center;*/
+}
+
+/*다음 블럭들 */
+.next-blocks {
+    width: 120px;
+    height: 600px;
+    margin: 20px 50px 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.next-block {
+    border-radius: 10px;
+    background-color:transparent;
+    width: 100px;
+    height: 75px;
+    background-size: cover;
+}
+
+.block-type-I { background-image: url('img/IBlock.png'); }
+.block-type-J { background-image: url('img/JBlock.png'); }
+.block-type-L { background-image: url('img/LBlock.png'); }
+.block-type-O { background-image: url('img/OBlock.png'); }
+.block-type-S { background-image: url('img/SBlock.png'); }
+.block-type-T { background-image: url('img/TBlock.png'); }
+.block-type-Z { background-image: url('img/ZBlock.png'); }
+

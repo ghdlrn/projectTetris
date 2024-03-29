@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            /*margin-top: 28%;*/
+            background-image: url("css/img/backgroundset.gif");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: auto;
+            width: 100%;
+            height: 100%;
+        }
+        .button {
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: white;
+        }
+        .btn{
+            text-align: center;
+            /*margin: auto;*/
+            display: block;
+            margin-bottom: 20%;
+            padding-top: 200px;
+        }
+        .Play{
+            font-size: 100px;
+        }
+        .Exit{
+            font-size: 100px;
+        }
+        
+    </style>
+</head>
+<body>
+<div class="btn">
+    <!-- Thymeleaf를 사용하여 'login.html' 페이지로 이동 -->
+    <!-- 'Play' 버튼 -->
+    <a href="login.html" th:href="@{/login.html}" class="Play">Play</a>
+
+    &nbsp;&nbsp;
+
+    <!-- 페이지 종료 기능은 클라이언트 사이드 스크립트를 그대로 사용 -->
+    <!-- 'Exit' 버튼 -->
+    <button class="Exit" onclick="window.close()">Exit</button>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/KeyGuide.css">
+
+</head>
+<body>
+<div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark sidebar-fixed" style="width: 200px; height: 750px">
+    <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark" style="width: 200px; height: 750px">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+            <svg class="bi pe-none me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            <span class="fs-4">Tetris Game</span>
+        </a>
+        <hr>
+        <ul class="nav nav-pills flex-column mb-auto">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link text-white">
+                    <svg class="bi pe-none me-2" width="16" height="16"></svg>
+                    Game
+                </a>
+            </li>
+            <li>
+                <a href="KeyGuide.html" class="nav-link active" aria-current="page">
+                    <svg class="bi pe-none me-2" width="16" height="16"></svg>
+                    조작키 가이드
+                </a>
+            </li>
+            <li>
+                <a href="GameGudie.html" class="nav-link text-white">
+                    <svg class="bi pe-none me-2" width="16" height="16"></svg>
+                    게임 가이드
+                </a>
+            </li>
+        </ul>
+        <hr>
+        <div class="dropdown">
+            <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="" alt="" width="32" height="32" class="rounded-circle me-2">
+                <strong>User</strong>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                <li><a class="dropdown-item" href="#">회원 정보</a></li>
+                <li><a class="dropdown-item" href="#">회원 정보 수정</a></li>
+                <li><a class="dropdown-item" href="#">랭킹</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Sign out</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="contents">
+    <h2 class="title__first"><span class="title__first__text">게임 키 가이드</span></h2>
+    <div class="contents-box">
+        <div class="contents-guide">
+
+            <dl id="toc" class="toc">
+                <dt class="toc__subject opened">
+                    <a href="##"><span>목차</span></a>
+                </dt>
+                <dd class="toc__contents">
+                    <ul class="toc__list">
+                        <li class="item-depth1">
+                            <a href="#h3-1"><span>블럭 좌, 우 이동</span></a>
+                        </li>
+                        <li class="item-depth1">
+                            <a href="#h3-2"><span>블럭 회전</span></a>
+                        </li>
+                        <li class="item-depth1">
+                            <a href="#h3-3"><span>소프트 드랍(SoftDrop), 하드 드랍(HardDrop)</span></a>
+                        </li>
+                        <li class="item-depth1">
+                            <a href="#h3-4"><span>홀드(Hold)</span></a>
+                        </li>
+                    </ul>
+                </dd>
+            </dl>
+
+            <div class="fr-view">
+                <img src="./css/img/GameGuideImage/KeyGuide.png" width="700px">
+                <h3 class="guide__title" id="h3-1">블럭 좌, 우 이동</h3>
+                    <img src="./css/img/GameGuideImage/BlockMove.gif" width="300px">
+                    <ul>
+                        <li><strong><span style="color: blue">좌측 방향키</span></strong>를 입력하면 조작중인 <strong><span style="color: blue">블록이 좌측으로 한 칸 이동</span></strong>합니다.</li>
+                        <li><strong><span style="color: blue">우측 방향키</span></strong>를 입력하면 조작중인 <strong><span style="color: blue">블록이 우측으로 한 칸 이동</span></strong>합니다.</li>
+                    </ul>
+                <h3 class="guide__title" id="h3-2">블럭 회전</h3>
+                    <img src="./css/img/GameGuideImage/BlockRotate.gif" width="300px">
+                    <img src="./css/img/GameGuideImage/BlockRotate.png">
+                    <p>블럭은 위 이미지와 같은 모양으로 회전합니다</p>
+                    <ul>
+                        <li>맨 왼쪽에 있는 그림은 블록이 처음 생성될 때의 초기 회전 상태입니다</li>
+                        <li><strong><span style="color: blue">위 방향키</span></strong>를 입력하면 조작중인 <strong><span style="color: blue">블록이 오른쪽(시계방향)으로 회전</span></strong>합니다.</li>
+                        <li><strong><span style="color: blue">Z키</span></strong>를 입력하면 조작중인 <strong><span style="color: blue">블록이 왼쪽(반시계방향)으로 회전</span></strong>합니다.</li>
+                        <li><a href="GameGudie.html/#h3-4">블럭의 회전 및 월 킥(Wall Kick) 규칙은 SRS(Super Rotation System)을 따릅니다.</a></li>
+                    </ul>
+                <h3 class="guide__title" id="h3-3">소프트 드랍(SoftDrop), 하드 드랍(HardDrop)</h3>
+                    <img src="./css/img/GameGuideImage/HardDrop.gif" width="300px">
+                    <ul>
+                        <li><strong><span style="color: blue">아래 방향키</span></strong>를 입력하면 조작중인 <strong><span style="color: blue">블록이 아래로 한칸 이동(SoftDrop)</span></strong>합니다.</li>
+                        <li><strong><span style="color: blue">스페이스바</span></strong>를 입력하면 조작중인 <strong><span style="color: blue">블록이 한번에 아래로 이동(HardDrop)</span></strong>합니다.</li>
+                    </ul>
+                <h3 class="guide__title" id="h3-4">홀드(Hold)</h3>
+                    <img src="./css/img/GameGuideImage/BlockHold.gif" width="300px">
+                    <ul>
+                        <li><strong><span style="color: blue">C키</span></strong>를 입력하면 조작중인 <strong><span style="color: blue">블록이 박스 저장 공간에 저장(Hold)</span></strong>되고 새로운 블록이 내려옵니다.</li>
+                        <li>블록을 홀드 중일 때, <strong><span style="color: blue">C키</span></strong>를 다시 입력하면<strong><span style="color: blue">조작중인 블록과 홀드중인 블록이 교체</span></strong>되고 다시 위에서 부터 블록이 내려옵니다.</li>
+                        <li>홀드 기능은 <strong><span style="color: blue">한 블럭을 조작하며 두 번이상 사용 불가</span></strong>합니다</li>
+                    </ul>
+            </div>
+
+        </div>
+    </div>
+    <div id="goToTop" class="go-to-top">
+        <a href="#" class="button">
+            <img src="css/img/SiteAsset/go-to-top.png" width="50px">
+        </a>
+    </div>
+</div>
+<button type="button" class="go-back" onClick="location.href='select_mode.html'">Go-Back</button>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="./js/KeyGuide.js"></script>
+</body>
+
+</html>

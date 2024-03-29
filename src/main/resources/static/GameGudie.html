@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="./css/KeyGuide.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+<div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark sidebar-fixed" style="width: 200px; height: 750px">
+    <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark" style="width: 200px; height: 750px">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+            <svg class="bi pe-none me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            <span class="fs-4">Tetris Game</span>
+        </a>
+        <hr>
+        <ul class="nav nav-pills flex-column mb-auto">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link text-white">
+                    <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
+                    Game
+                </a>
+            </li>
+            <li>
+                <a href="KeyGuide.html" class="nav-link text-white">
+                    <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
+                    조작키 가이드
+                </a>
+            </li>
+            <li>
+                <a href="GameGudie.html" class="nav-link active" aria-current="page">
+                    <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
+                    게임 가이드
+                </a>
+            </li>
+        </ul>
+        <hr>
+        <div class="dropdown">
+            <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="" alt="" width="32" height="32" class="rounded-circle me-2">
+                <strong>User</strong>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                <li><a class="dropdown-item" href="#">회원 정보</a></li>
+                <li><a class="dropdown-item" href="#">회원 정보 수정</a></li>
+                <li><a class="dropdown-item" href="#">랭킹</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Sign out</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="contents">
+    <h2 class="title__first"><span class="title__first__text">게임 가이드</span></h2>
+    <div class="contents-box">
+        <div class="contents-guide">
+
+            <dl id="toc" class="toc">
+                <dt class="toc__subject opened">
+                    <a href="##"><span>목차</span></a>
+                </dt>
+                <dd class="toc__contents">
+                    <ul class="toc__list">
+                        <li class="item-depth1">
+                            <a href="#h3-1"><span>게임 규칙</span></a>
+                        </li>
+                        <li class="item-depth1">
+                            <a href="#h3-2"><span>블럭 종류</span></a>
+                        </li>
+                        <li class="item-depth1">
+                            <a href="#h3-3"><span>블럭 생성 규칙(7-bag)</span></a>
+                        </li>
+                        <li class="item-depth1">
+                            <a href="#h3-4"><span>회전 규칙(SRS : Super Rotation System)</span></a>
+                        </li>
+                        <li class="item-depth1">
+                            <a href="#h3-5"><span>월 킥(Wall Kick)</span></a>
+                        </li>
+                        <li class="item-depth1">
+                            <a href="#h3-6"><span>다음 블록 미리보기</span></a>
+                        </li>
+                        <li class="item-depth1">
+                            <a href="#h3-8"><span>고스트 블록(Ghost Block)</span></a>
+                        </li>
+                        <li class="item-depth1">
+                            <a href="#h3-9"><span>난이도</span></a>
+                        </li>
+                    </ul>
+                </dd>
+            </dl>
+
+            <div class="fr-view">
+                <h3 class="guide__title" id="h3-1">게임 규칙</h3>
+                <img src="css/img/GameGuideImage/Board.png" width="200px">
+                <ol>
+                    <li>한 칸이 정사각형 모양인 10 x 22의 빈 공간에서 게임이 이루어집니다</li>
+                    <li>맨 위에서부터 블록이 나타나 일정시간마다 아래로 떨어집니다</li>
+                    <li>떨어지는 블록은 사용자가 조작할 수 있습니다</li>
+                    <li>블록은 다른 블록을 통과할 수 없습니다</li>
+                    <li>블록이 맨 아래 닿거나 다른 블록에 닿아 더이상 내려갈 공간이 없는 경우 그 자리에 고정되고 새로운 블록이 나타납니다</li>
+                    <li>쌓인 블록으로 가로 한줄을 모두 채우면 해당 줄을 제거할 수 있습니다</li>
+                    <li>블록이 맨 윗줄에 쌓이면 게임이 종료됩니다</li>
+                </ol>
+                <h3 class="guide__title" id="h3-2">블럭 종류</h3>
+                <table border="1" >
+                    <tr>
+                        <td><img src="css/img/IBlock.png"></td>
+                        <td><img src="css/img/OBlock.png"></td>
+                        <td><img src="css/img/TBlock.png"></td>
+                    </tr>
+                    <tr>
+                        <td align="center">I블럭</td>
+                        <td align="center">O블럭</td>
+                        <td align="center">T블럭</td>
+                    </tr>
+                </table>
+                <table border="1">
+                    <tr>
+                        <td><img src="css/img/SBlock.png"></td>
+                        <td><img src="css/img/ZBlock.png"></td>
+                    </tr>
+                    <tr>
+                        <td align="center">S블럭</td>
+                        <td align="center">Z블럭</td>
+                    </tr>
+                    <tr>
+                        <td><img src="css/img/LBlock.png"></td>
+                        <td><img src="css/img/JBlock.png"></td>
+                    </tr>
+                    <tr>
+                        <td align="center">L블럭</td>
+                        <td align="center">J블럭</td>
+                    </tr>
+                </table>
+                <h3 class="guide__title" id="h3-3">블럭 생성 규칙(7-bag)</h3>
+                <ul>
+                    <li>해당 테트리스의 블록은 각 블록들이 7개를 주기로 랜덤 배치됩니다.</li>
+                    <li>이 7개 단위의 블록을 7-bag이라 합니다.</li>
+                </ul>
+                <h3 class="guide__title" id="h3-4">회전 규칙(SRS : Super Rotation System)</h3>
+                <img src="./css/img/GameGuideImage/BlockRotate.png" width="300px">
+                <ul>
+                    <li>블록은 기본적으로 위 그림의 왼쪽 모습에서 시작하여 위 방향키를 누르면 오른쪽으로, Z키를 누르면 왼쪽으로 회전합니다.</li>
+                    <li>플레이어가 블록을 회전하려고 시도하지만 기본 회전 후 일반적으로 차지할 위치가 방해를 받는 경우(플레이 필드의 벽이나 바닥 또는 다른 블록에 의해) 블록은 월 킥(Wall Kick)을 시도합니다.</li>
+                </ul>
+                <h3 class="guide__title" id="h3-5">월 킥(Wall Kick)</h3>
+
+                <table border="1" >
+                    <tr>
+                        <td><img src="css/img/GameGuideImage/JLSZTWallKickData.png"></td>
+                        <td><img src="css/img/GameGuideImage/IWallKickData.png"></td>
+                    </tr>
+                    <tr>
+                        <td align="center">J, L, S, Z, T블록 월 킥 데이터</td>
+                        <td align="center">I블록 월 킥 데이터</td>
+                    </tr>
+                </table>
+                <img src="./css/img/GameGuideImage/WallKickEx.png" width="500px">
+                <ul>
+                    <li>블록은 기본회전에 실패할 경우 블록의 종류와 회전 방향에 따라 위 데이터의 테스트 순서에 따라 블록을 이동합니다.</li>
+                    <li>위 5종류의 이동에도 불구하고 블록이 차지할 위치가 방해를 받는 경우 회전에 실패합니다.</li>
+                    <li>위 표에에서 (x, y)의 양수 x는 오른쪽 셀을, 양수 y는 위쪽을 의미합니다.</li>
+                    <li>예를들어 (+1, -2)는 현재 위치에서 오른쪽으로 한칸, 아래로 두칸을 의미합니다.</li>
+                    <li>위 표에서 0, R, 2, L은 블록의 회전상태를 나타내며 아래와 같습니다.</li>
+                    <li>0 : 블록 생성당시 기본 상태</li>
+                    <li>R : 0에서 오른쪽(시계방향)으로 회전한 상태</li>
+                    <li>2 : 0에서 두 번(180도) 회전한 상태</li>
+                    <li>L : 0에서 왼쪽(반시계방향)으로 회전한 상태</li>
+                </ul>
+                <h3 class="guide__title" id="h3-6">다음 블록 미리보기</h3>
+                <img src="css/img/GameGuideImage/NextBlock.png">
+                <p>다음에 나올 블록의 위치를 위에서부터 순차적으로 보여줍니다
+                <h3 class="guide__title" id="h3-7">고스트 블록(Ghost Block)</h3>
+                <img src="css/img/GameGuideImage/GhostBlock.jpg">
+                <p>현 시점에서 빨리 떨어뜨리기(소프트 드롭) 혹은 즉시 일직선으로 낙하시 (하드 드롭) 테트로미노가 고정될 지점을 미리 보여줍니다.
+                <h3 class="guide__title" id="h3-8">난이도</h3>
+                <img src="css/img/GameGuideImage/Level.png">
+                <ul>
+                    <li>게임이 이루어지는 공간(GameBoard)내 가로 한줄(Line)을 제거한 만큼 위 상태창에 Line이 증가합니다.</li>
+                    <li>Line이 일정 수 증가할 때 마다 Level이 증가합니다.</li>
+                    <li>Level이 증가할 때 마다 블록이 떨어지는 속도가 증가합니다.</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div id="goToTop" class="go-to-top">
+        <a href="#" class="button">
+            <img src="css/img/SiteAsset/go-to-top.png" width="50px">
+        </a>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="./js/KeyGuide.js"></script>
+</body>
+
+</html>
+</body>
+</html>

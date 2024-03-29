@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" th:href="@{/css/login.css}"> <!-- CSS 파일 경로 확인 필요 -->
+</head>
+
+<body>
+
+<div id="wrapper">
+    <h1 class="logo">
+        <!-- Thymeleaf를 사용하여 루트 URL로 링크를 동적으로 생성합니다. -->
+        <a th:href="@{/login}">Tetris Game</a>
+    </h1>
+
+    <!-- Spring Boot 컨트롤러의 '/login' 엔드포인트와 일치하도록 th:action을 사용합니다. -->
+    <form th:action="@{/login}" class="outsidebox" method="post" name="frm">
+        <div class="tetrisLogin" id="tetrisLogin">
+            <!-- 에러 메시지를 표시하기 위해 Thymeleaf의 조건부 표현식을 사용합니다. -->
+            <p class="loginMsg" th:if="${error}" th:text="${error}"></p>
+            <fieldset>
+                <legend class="acchidden">Tetris 로그인</legend>
+                <div class="id">
+                    <input type="text" name="userid" id="userid" class="input01" placeholder="ID (아이디)" required autofocus>
+                </div>
+                <div class="pass">
+                    <input type="password" name="password" id="password" class="input01" placeholder="비밀번호 (password)" required>
+                </div>
+                <br>
+                <div class="btLogin">
+                    <button type="submit" class="button01">Tetris 로그인</button> &nbsp;
+<!--                </div>-->
+
+<!--                <div class="btLogin">-->
+                    <button onclick="window.location.href='/signup'" class="button01 join">회원가입</button>
+                </div>
+                <!-- 회원가입 페이지로의 링크는 필요에 따라 th:href를 사용하여 동적으로 설정합니다. -->
+            </fieldset>
+        </div>
+    </form>
+</div>
+</body>
+
+</html>
