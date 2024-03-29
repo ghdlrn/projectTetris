@@ -70,11 +70,10 @@ IDE : 인텔리J
 #### [😆 권범준 👉 [GitHub](https://github.com/seokeunpark)](https://github.com/kwonbumjoon)
 
 ## 📋 개발 일지 📋
-<details><summary>개발 일지</summary>
    
 https://velog.io/@ghdlrn/%ED%85%8C%ED%8A%B8%EB%A6%AC%EC%8A%A4%EA%B2%8C%EC%9E%84-%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80-1%EC%9D%BC%EC%B0%A8
 
-</details>
+
 
 ## 🔨 사용 기술 🔨
 <div>
@@ -94,12 +93,11 @@ https://velog.io/@ghdlrn/%ED%85%8C%ED%8A%B8%EB%A6%AC%EC%8A%A4%EA%B2%8C%EC%9E%84-
 
 ## 📹 시연 영상 📹
 
-<details><summary>유튜브 링크</summary>
+
 
 https://youtu.be/cTt5ZwCrwgg
 
-</details>
-    
+
 
 </div>
 
