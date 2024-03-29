@@ -3,9 +3,9 @@
 ## 📚 목차 📚
 
 1. [📂 PPT](#-PPT-)
-2. [📖 프로젝트 소개](#-gongcheck-프로젝트-)
+2. [📖 프로젝트 소개](#-테트리스게임 프로젝트-)
 3. [🔧 Development Environment](#development-environment)
-4. [💡 기획 의도](#기획-의도)
+4. [💡 개발 목적](#기획-의도)
 5. [🙋‍♀️ Team_Member](#%EF%B8%8F-team_member-%EF%B8%8F)
 6. [📋 개발 일지](#개발-일지)
 7. [🔨 사용 기술](#-사용-기술-)
@@ -40,7 +40,7 @@
 ```bash프로젝트 소개
 테트리스 게임을 웹에서 구현
 ```
-## 🔧 Development Environment 🔧
+## 🔧 개발 환경 🔧
 ```
 언어 : Java(jdk 21.0.2), SpringBoot 3.2.3
 프레임워크 : SpringBoot 3.2.3
@@ -88,9 +88,7 @@ IDE : 인텔리J
 <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white" />
 <img src="https://img.shields.io/badge/Bootstrap-80247B?style=flat-square&logo=Bootstrap&logoColor=white" />
 <img src="https://github.com/ghdlrn/projectT/assets/157094398/2103f4ef-dfe6-40c4-8454-95d8543fd676" />
-<br>
-<img src="https://github.com/ghdlrn/projectT/assets/157094398/f937d58d-5435-4126-b6a0-312276f8ea86" />
-<img src="https://github.com/ghdlrn/projectT/assets/157094398/a6a5cc46-e566-4909-a0f5-9e84a97ebfbf)
+
 
 ## 📹 시연 영상 📹
 
