@@ -67,7 +67,59 @@ IDE : 인텔리J
 ## 🙋‍♀️ Team_Member 🙋‍♀️
 
 #### [😆 이규민 👉 [GitHub](https://github.com/Jincheol-11)](https://github.com/ghdlrn)
+<details><summary>제작 클래스</summary>
+<details><summary>Java</summary>
+	Block,
+	IBlock,
+	JBlock,
+	LBlock,
+	OBlock,
+	TBlock,
+	ZBlock,
+	Board,
+	GameController,
+ 	BlockState,
+	BoardState,
+	GhostBlockState,
+	HoldBlockState,
+	BlackFatory,
+	BlockPool,
+	GameService,
+	MoveBlock,
+	GameControllerWebSocket,
+	GameWebSocket,
+	WebConfig,
+	WebSocketConfig
+</details>
+<details><summary>Html, css, js</summary>
+	index.html
+	KeyGuide.html
+	GameGuide.html
+	KeyGuide.css
+	style.css
+	main.js
+	KeyGuide.js
+</details>
+</details>
 #### [😆 권범준 👉 [GitHub](https://github.com/seokeunpark)](https://github.com/kwonbumjoon)
+<details><summary>제작 클래스</summary>
+<details><summary>Java</summary>
+	LoginController,
+ 	SignupCOntroller,
+  	firstpageController
+	User,
+	UserRepository,
+	UserService
+</details>
+<details><summary>Html, css</summary>
+	firstpage.html
+	login.html
+	signuppage.html
+	index_style.css
+	login.css
+	signup.css
+</details>
+</details>
 
 ## 📋 개발 일지 📋
    
